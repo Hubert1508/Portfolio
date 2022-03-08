@@ -1,0 +1,191 @@
+
+img{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.info{
+  position: relative;
+  width: 30vw;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 2px;
+}
+
+p{
+  font-size: 3vw;
+  color: white;
+  letter-spacing: 1vw;
+  margin-left: inherit;
+  color: white;
+}
+
+.underLine{
+  width: 25vw;
+  border: 1px solid rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 100%;
+}
+
+.webDev{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1.5vw;
+}
+
+.writingCode{
+  display: flex;
+  position: relative;
+  width: auto;
+}
+
+.laptop{
+  width: 97vw;
+  margin: auto;
+  margin-top: 25%;
+  border-radius: 25px;
+  position: relative;
+}
+
+.aboutMe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.screenInfo{
+  width: 97vw;
+  height: 100vh;
+  position: relative;
+  border-radius: 25px;
+}
+
+.text{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  z-index: 1;
+  line-height: 200%;
+  top: 24%;
+  width: 34%;
+  height: 29%;
+  margin-right: 2%;
+  overflow: auto;
+  font-size: 1.8vw;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 
+    2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 
+    3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 
+    4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 
+    5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 
+    6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 
+    7px 6px 1px #CCCCCC;
+  color: #444444;
+  background: #FFFFFF;
+}
+
+.buttonsSection{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  margin: 0;
+  padding: 1%;
+}
+
+.actionButton{
+  font-size: 3vw;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15), 2px 2px 2px rgba(206,89,55,0);
+  color: #FFFFFF;
+  background: transparent;
+  border-radius: 25px;
+  padding: 1%;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 20%;
+}
+
+.actionButton:hover{
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 
+    2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 
+    3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 
+    4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 
+    5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 
+    6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 
+    7px 6px 1px #CCCCCC;
+  color: #444444;
+  background: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+  transition: all .2s;
+}
+
+a:hover{
+  color: red;
+}
+
+#projects{
+  text-align: center;
+  display: grid;
+  font-size: 3vw;
+}
+
+@media(max-width: 1200px){
+
+  .screenInfo{
+    height: 70vh;
+  }
+
+  strong{
+    font-size: 3vw;
+  }
+
+  .contact{
+    font-size: 2.7vw;
+    line-height: 8vh;
+  }
+}
+
+@media(max-width: 600px){
+  .screenInfo{
+    height: 50vh;
+  }
+
+  .contact{
+    font-size: 2.6vw;
+    line-height: 5vh;
+  }
+
+  strong{
+    font-size: 3vw;
+  }
+}
+
+@media(max-width: 280px){
+  .screenInfo{
+    height: 50vh;
+  }
+
+  .contact{
+    font-size: 2.6vw;
+
+  }
+
+  strong{
+    font-size: 4vw;
+  }
+}
