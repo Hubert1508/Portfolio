@@ -1,0 +1,5 @@
+Cześć, jestem Hubert.<br> Gość po Samochodówce, który ma mega zajawkę na programowanie.
+Jestem Frontendowcem, więc na co dzień posługuję się HTML, CSS i JavaScript+React.💻
+Pisałem też w PHP na potrzeby stworzenia użytkownika i możliwość logowania do konta,
+więc SQL'a też nie zabrakło by stworzyc bazę danych użytkowników.
+Uczę się tych technologii, które umożliwiają mi tworzenie takich aplikacji, jakich aktualnie potrzebuję.
